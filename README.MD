@@ -1,6 +1,6 @@
-# AI Chat App Backend Server
+# Mindfulness App Backend Server
 
-Welcome to the backend server for our AI Chat App! This project powers a sophisticated chat application with AI-driven features, including local AI interactions, database management, audio processing, emotion recognition, and voice-to-text capabilities. The server is built with Node.js for core functionalities and Python for specialized tasks.
+Welcome to the backend server for our Mindfulness App! This project powers a sophisticated chat application with AI-driven features, including local AI interactions, database management, audio processing, emotion recognition, and voice-to-text capabilities. The server is built with Node.js for core functionalities and Python for specialized tasks.
 
 ## Project Structure
 
@@ -30,8 +30,8 @@ Follow these steps to get the backend server up and running:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-chat-app-backend.git
-cd ai-chat-app-backend
+git clone https://github.com/Mindfulness2/Mindfulness_Back.git
+cd Mindfulness_Back-master
 ```
 
 ### 2. Initialize Node.js Projects
@@ -81,8 +81,6 @@ The `VoiceToText.py` script uses PaddleSpeech for local voice-to-text conversion
    python VoiceToText.py
    ```
 
-> **Note**: Ensure the `application.yaml` file is correctly configured with paths to your models and server settings.
-
 ### 5. Start the Backend Services
 
 Once all dependencies are installed and configured:
@@ -93,30 +91,4 @@ Once all dependencies are installed and configured:
 
 ## Usage
 
-- **AI Interactions**: Send requests to the `AIServer` endpoints to interact with the Ollama model for chat responses.
-- **Database Operations**: Use the `MongoDB` service to store or retrieve chat histories and user data.
-- **Audio Processing**: Upload audio files to the `VoiceReceiver` service for processing.
-- **Emotion Recognition**: Use the `Emotion.ipynb` notebook to analyze emotions from text or audio inputs.
-- **Voice-to-Text**: Leverage `VoiceToText.py` to convert audio inputs to text via the PaddleSpeech server.
-
-## Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-Please ensure your code follows the project's coding standards and includes relevant tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or support, please open an issue on GitHub or contact the maintainers at [your-email@example.com](mailto:your-email@example.com).
-
-Happy coding, and enjoy building with the AI Chat App Backend!
+Please use it with the front-end project of this project. You can enable some components to support available functions.
